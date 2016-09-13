@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8f70bc8-7de3-45f0-95a8-dafb255f28a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cis237Inclass1/Program.cs" afterPath="$PROJECT_DIR$/../../cis237Inclass1/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cis237Inclass1/UserInterface.cs" afterPath="$PROJECT_DIR$/../../cis237Inclass1/UserInterface.cs" />
     </list>
     <list id="6266862d-ed84-4fcb-8390-51d327099d83" name="Rejected commit: Default" comment="Employee Class was created.&#10;Methods to pass information between classes.&#10;And more code">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../cis237Inclass1/Employee.cs" />
@@ -29,15 +30,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="626">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
-                <marker date="1473799013043" expanded="true" signature="1269:1279" ph="{...}" />
-                <marker date="1473799013043" expanded="true" signature="1269:1285" ph="{...}" />
-                <marker date="1473799013043" expanded="true" signature="1269:1287" ph="{...}" />
+                <marker date="1473801590180" expanded="true" signature="1273:1283" ph="{...}" />
+                <marker date="1473801590180" expanded="true" signature="1273:1289" ph="{...}" />
+                <marker date="1473801590180" expanded="true" signature="1273:1291" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="Employee.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/Employee.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
+            <state relative-caret-position="756">
               <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding>
                 <marker date="1473799269665" expanded="true" signature="6:115" ph="..." />
@@ -65,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInterface.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInterface.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/UserInterface.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -84,8 +85,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../cis237Inclass1/Employee.cs" />
-        <option value="$PROJECT_DIR$/../../cis237Inclass1/Program.cs" />
         <option value="$PROJECT_DIR$/../../cis237Inclass1/UserInterface.cs" />
+        <option value="$PROJECT_DIR$/../../cis237Inclass1/Program.cs" />
       </list>
     </option>
   </component>
@@ -169,6 +170,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d8f70bc8-7de3-45f0-95a8-dafb255f28a1" name="Default" comment="" />
@@ -176,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473798396894</updated>
-      <workItem from="1473798399679" duration="2359000" />
+      <workItem from="1473798399679" duration="3181000" />
     </task>
     <task id="LOCAL-00001" summary="Employee Class was created.&#10;Methods to pass information between classes.&#10;And more code">
       <created>1473800185221</created>
@@ -185,11 +189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473800185221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UserInterface was created.">
+      <created>1473800798022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473800798022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2359000" />
+    <option name="totallyTimeSpent" value="3181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Employee Class was created.&#10;Methods to pass information between classes.&#10;And more code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee Class was created.&#10;Methods to pass information between classes.&#10;And more code" />
+    <MESSAGE value="UserInterface was created." />
+    <option name="LAST_COMMIT_MESSAGE" value="UserInterface was created." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -248,21 +260,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/Program.cs">
+    <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/UserInterface.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <marker date="1473799013043" expanded="true" signature="1269:1279" ph="{...}" />
-            <marker date="1473799013043" expanded="true" signature="1269:1285" ph="{...}" />
-            <marker date="1473799013043" expanded="true" signature="1269:1287" ph="{...}" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/Employee.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
+        <state relative-caret-position="756">
           <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
           <folding>
             <marker date="1473799269665" expanded="true" signature="6:115" ph="..." />
@@ -280,11 +288,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/UserInterface.cs">
+    <entry file="file://$PROJECT_DIR$/../../cis237Inclass1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="626">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <marker date="1473801590180" expanded="true" signature="1273:1283" ph="{...}" />
+            <marker date="1473801590180" expanded="true" signature="1273:1289" ph="{...}" />
+            <marker date="1473801590180" expanded="true" signature="1273:1291" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
