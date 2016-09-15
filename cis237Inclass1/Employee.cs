@@ -16,7 +16,7 @@ namespace cis237Inclass1
         private decimal _weeklySalary;
 
         //***************
-        //Propeties
+        //Properties
         //***************
         public string FirstName
         {
@@ -39,8 +39,10 @@ namespace cis237Inclass1
         //***************
         //Public Methods
         //***************
+        //Uses the override keyword, this will override the automatic one that comes with every object
         public override string ToString()
         {
+            //the this keyword is used to reference "this" class. It allows us to reference thing that are at this class level 
             return this._firstName + " " + this._lastName;
         }
 
@@ -52,6 +54,7 @@ namespace cis237Inclass1
         //***************
         //Constructor
         //***************
+        //Constructor that takes three parameters
         public Employee(string firstName, string lastName, decimal weeklysalary)
         {
             this._firstName = firstName;
@@ -59,6 +62,8 @@ namespace cis237Inclass1
             this._weeklySalary = weeklysalary;
         }
 
+        //A empty constructor. We must add it back in because as soon as a constructor is added to a class
+        //the empty default is no longer available. We are required to write it ourselves
         public Employee()
         {
             //Do Nothing

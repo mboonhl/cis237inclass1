@@ -10,12 +10,16 @@ namespace cis237Inclass1
     {
         static void Main(string[] args)
         {
+            //Declaring a variable of type Employee and instantiate a new instance of Employee and assigning it to the variable
             Employee myEmployee = new Employee();
+            //Use properties to assign values
             myEmployee.FirstName = "Morgan";
             myEmployee.LastName = "Boon";
             myEmployee.WeeklySalary = 298763.02m;
 
+            //Output by property
             Console.WriteLine(myEmployee.FirstName);
+            //Output the entire  employee, which will call the ToString method implicitly 
             Console.WriteLine(myEmployee);
 
             Employee[] employees = new Employee[10];
